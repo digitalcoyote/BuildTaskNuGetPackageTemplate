@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BuildTaskNuGetPackage.Template</id>
+    <Title>Build Task NuGet Package Template</Title>
+    <version>0.0.0.1-pre</version>
+    <description>
+      Creates a NuGet package that runs a console application during the build.
+    </description>
+    <authors>Curtis Carter</authors>
+    <owners>Curtis Carter</owners>
+    <projectUrl>https://github.com/DigitalCoyote/BuildTaskNuGetPackageTemplate</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>MyBuildTask ~ A template to create NuGet packages that run tasks at build.</summary>
+    <releaseNotes>https://github.com/digitalcoyote/MyBuildTask/releases</releaseNotes>
+    <repository type="git" url="https://github.com/digitalcoyote/BuildTaskNuGetPackageTemplate.git"/>
+    <license type="expression">MIT</license>
+    <tags>template</tags>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file src="MyBuildTask/**/*" target="content" />
+  </files>
+</package>

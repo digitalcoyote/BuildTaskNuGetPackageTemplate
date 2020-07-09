@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <NuspecFile>BuildTaskNuGetPackage.Template.nuspec</NuspecFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="MyBuildTask\**\*" Exclude="MyBuildTask\**\bin\**;MyBuildTask\**\obj\**" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+</Project>

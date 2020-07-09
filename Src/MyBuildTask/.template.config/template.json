@@ -1,0 +1,19 @@
+{
+    "author": "Curtis Carter",
+    "classifications": [ "Common", "Console" ],
+    "name": "Build Task NuGet Package",
+    "identity": "BuildTaskNuGetPackage.Template",
+    "shortName": "nugetbuildtask",
+    "tags": {
+        "language": "C#"
+    },
+    "sourceName": "MyBuildTask",
+    "symbols":{
+        "Author": {
+            "type": "parameter",
+            "defaultValue": "",
+            "replaces":"Curtis Carter"
+        }
+    },
+    "preferNameDirectory" : "true"
+    }
