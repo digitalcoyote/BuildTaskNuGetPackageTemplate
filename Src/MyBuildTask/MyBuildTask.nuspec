@@ -7,13 +7,13 @@
     <authors>Curtis Carter</authors>
     <owners>Curtis Carter</owners>
     <projectUrl>https://github.com/DigitalCoyote/BuildTaskNuGetPackageTemplate</projectUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <summary>MyBuildTask ~ Check for Known Vulnerabilities at Build</summary>
-    <description>MyBuildTask was inspired by OWASP SafeNuGet but checks with multiple sources for known vulnerabilities.</description>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <summary>MyBuildTask ~ Does a thing autmatically when built</summary>
+    <description>MyBuildTask runs a console after compilation</description>
     <releaseNotes>https://github.com/digitalcoyote/MyBuildTask/releases</releaseNotes>
     <repository type="git" url="https://github.com/digitalcoyote/BuildTaskNuGetPackageTemplate.git"/>
     <license type="expression">MIT</license>
-    <tags>Security</tags>
+    <tags></tags>
   </metadata>
 
   <files>
