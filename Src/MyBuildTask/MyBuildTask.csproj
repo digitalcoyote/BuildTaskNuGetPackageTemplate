@@ -15,9 +15,4 @@
       <None Remove="MyBuildTask.nuspec" />
       <Content Include="MyBuildTask.nuspec" />
     </ItemGroup>
-
-    <PropertyGroup>
-        <MyBuildTaskExe Condition="'$(OS)' == Unix">dotnet "$(MSBuildThisFileDirectory)../tools/netcoreapp3.1/MyBuildTask.dll"</MyBuildTaskExe>
-        <MyBuildTaskExe Condition="'$(OS)' == 'Windows_NT'">dotnet "$(MSBuildThisFileDirectory)..\tools\netcoreapp3.1\MyBuildTask.dll"</MyBuildTaskExe>
-    </PropertyGroup>
 </Project>
