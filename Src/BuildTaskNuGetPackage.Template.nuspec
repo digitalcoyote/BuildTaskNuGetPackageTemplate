@@ -3,7 +3,7 @@
   <metadata>
     <id>BuildTaskNuGetPackage.Template</id>
     <Title>Build Task NuGet Package Template</Title>
-    <version>0.0.0.1-pre</version>
+    <version>0.0.0.1</version>
     <description>
       Creates a NuGet package that runs a console application during the build.
     </description>
