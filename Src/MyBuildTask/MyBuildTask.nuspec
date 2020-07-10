@@ -13,7 +13,7 @@
     <releaseNotes>https://github.com/digitalcoyote/MyBuildTask/releases</releaseNotes>
     <repository type="git" url="https://github.com/digitalcoyote/BuildTaskNuGetPackageTemplate.git"/>
     <license type="expression">MIT</license>
-    <tags></tags>
+    <tags>build</tags>
   </metadata>
 
   <files>
