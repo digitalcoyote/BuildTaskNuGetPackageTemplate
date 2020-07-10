@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>BuildTaskNuGetPackage.Template</id>
-    <Title>Build Task NuGet Package Template</Title>
-    <version>0.0.0.1</version>
+    <title>Build Task NuGet Package Template</title>
+    <version>0.0.0.2</version>
     <description>
       Creates a NuGet package that runs a console application during the build.
     </description>
